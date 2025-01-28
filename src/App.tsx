@@ -290,7 +290,7 @@ const App = () => {
   }
 
   return (
-    <div className='w-screen h-screen overflow-hidden grid grid-cols-9 bg-neutral-900 backdrop-blur-3xl'>
+    <div className='w-screen h-screen overflow-hidden grid md:grid-cols-9 md:grid-rows-none grid-rows-9 bg-neutral-900 backdrop-blur-3xl'>
       <div ref={backdropRef} style={{ backgroundImage: `url(./assets/${data[currentMovie].thumbnail})` }} className='absolute inset-0 -z-10 bg-cover bg-center filter blur-3xl' />
       <LeftContent
         logoRef={logoRef}
