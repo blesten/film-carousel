@@ -1,50 +1,139 @@
-# React + TypeScript + Vite
+<div id="top"></div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-Currently, two official plugins are available:
+<br />
+<div align="center">
+  <a href="https://github.com/blesten/film-carousel">
+    <img src="public/assets/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  <h3 align="center">Silver Frame</h3>
 
-## Expanding the ESLint configuration
+  <p align="center">
+    An awesome film carousel website
+    <br />
+    <a href="https://github.com/blesten/film-carousel"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/blesten/film-carousel/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/blesten/film-carousel/issues">Request Feature</a>
+  </p>
+</div>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-- Configure the top-level `parserOptions` property like this:
+## About The Project
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Welcome to the **Silver Frame** Github repository! Here, you'll find the source code for our sleek and sophisticated film carousel website. Built with modern technologies and a focus on user experience, our website aims to provide customers with an effortless film browsing experience.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+<p align="right"><a href="#top">back to top</a></p>
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### Built With
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Main technology used to built this application are listed below:
+
+* [Vite](https://www.vite.dev/)
+* [Typescript](https://www.typescriptlang.org/)
+* [React.js](https://www.reactjs.org/)
+* [Tailwind CSS](https://www.tailwindcss.com/)
+* [GSAP](https://gsap.com/)
+
+<p align="right"><a href="#top">back to top</a></p>
+
+## Getting Started
+
+To get started with this project locally, follow below steps:
+
+### Prerequisites
+
+Make sure you have Node.js, and package manager (either npm or yarn) installed
+
+>**FYI**: This project uses **npm** as the package manager, but you're free to use **yarn** too.
+
+### Installation
+
+Below steps will guide you through the local installation process of this application
+
+1. Clone the repo
+   ```
+   git clone https://github.com/blesten/film-carousel.git
+   ```
+2. Open your terminal, and ```cd``` to the root directory, then run ```npm install``` command to install dependency
+3. Lastly, run ```npm run dev``` command on root directory at your terminal to start the application
+
+<p align="right"><a href="#top">back to top</a></p>
+
+## Contributing
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right"><a href="#top">back to top</a></p>
+
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right"><a href="#top">back to top</a></p>
+
+## Contact
+
+LinkedIn: [Stanley Claudius](https://www.linkedin.com/in/stanleyclaudius)
+
+Project Link: [https://github.com/blesten/film-carousel](https://github.com/blesten/film-carousel)
+
+<p align="right"><a href="#top">back to top</a></p>
+
+## Acknowledgments
+
+Special thanks to:
+
+* [Othneildrew](https://github.com/othneildrew/) for providing an amazing README template.
+* [Tailwind CSS](https://tailwindcss.com) for providing CSS framework to be used in this application.
+* [React Icons](https://react-icons.github.io/react-icons/) for providing icon to be used in this application.
+
+<p align="right"><a href="#top">back to top</a></p>
+
+[forks-shield]: https://img.shields.io/github/forks/blesten/film-carousel.svg?style=for-the-badge
+[forks-url]: https://github.com/blesten/film-carousel/network/members
+[stars-shield]: https://img.shields.io/github/stars/blesten/film-carousel.svg?style=for-the-badge
+[stars-url]: https://github.com/blesten/film-carousel/stargazers
+[issues-shield]: https://img.shields.io/github/issues/blesten/film-carousel.svg?style=for-the-badge
+[issues-url]: https://github.com/blesten/film-carousel/issues
+[license-shield]: https://img.shields.io/github/license/blesten/film-carousel.svg?style=for-the-badge
+[license-url]: https://github.com/blesten/film-carousel/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/stanleyclaudius
